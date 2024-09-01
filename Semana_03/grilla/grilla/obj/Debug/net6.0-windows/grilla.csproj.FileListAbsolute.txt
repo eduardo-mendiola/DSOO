@@ -1,0 +1,16 @@
+C:\Users\ezequ\source\repos\POO\Semana_03\grilla\grilla\bin\Debug\net6.0-windows\grilla.exe
+C:\Users\ezequ\source\repos\POO\Semana_03\grilla\grilla\bin\Debug\net6.0-windows\grilla.deps.json
+C:\Users\ezequ\source\repos\POO\Semana_03\grilla\grilla\bin\Debug\net6.0-windows\grilla.runtimeconfig.json
+C:\Users\ezequ\source\repos\POO\Semana_03\grilla\grilla\bin\Debug\net6.0-windows\grilla.dll
+C:\Users\ezequ\source\repos\POO\Semana_03\grilla\grilla\bin\Debug\net6.0-windows\grilla.pdb
+C:\Users\ezequ\source\repos\POO\Semana_03\grilla\grilla\obj\Debug\net6.0-windows\grilla.Form1.resources
+C:\Users\ezequ\source\repos\POO\Semana_03\grilla\grilla\obj\Debug\net6.0-windows\grilla.csproj.GenerateResource.cache
+C:\Users\ezequ\source\repos\POO\Semana_03\grilla\grilla\obj\Debug\net6.0-windows\grilla.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ezequ\source\repos\POO\Semana_03\grilla\grilla\obj\Debug\net6.0-windows\grilla.AssemblyInfoInputs.cache
+C:\Users\ezequ\source\repos\POO\Semana_03\grilla\grilla\obj\Debug\net6.0-windows\grilla.AssemblyInfo.cs
+C:\Users\ezequ\source\repos\POO\Semana_03\grilla\grilla\obj\Debug\net6.0-windows\grilla.csproj.CoreCompileInputs.cache
+C:\Users\ezequ\source\repos\POO\Semana_03\grilla\grilla\obj\Debug\net6.0-windows\grilla.dll
+C:\Users\ezequ\source\repos\POO\Semana_03\grilla\grilla\obj\Debug\net6.0-windows\refint\grilla.dll
+C:\Users\ezequ\source\repos\POO\Semana_03\grilla\grilla\obj\Debug\net6.0-windows\grilla.pdb
+C:\Users\ezequ\source\repos\POO\Semana_03\grilla\grilla\obj\Debug\net6.0-windows\grilla.genruntimeconfig.cache
+C:\Users\ezequ\source\repos\POO\Semana_03\grilla\grilla\obj\Debug\net6.0-windows\ref\grilla.dll

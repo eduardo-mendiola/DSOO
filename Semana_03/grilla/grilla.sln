@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "grilla", "grilla\grilla.csproj", "{29A24F6C-31C6-4A44-AA2E-4A4D6D01DE2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29A24F6C-31C6-4A44-AA2E-4A4D6D01DE2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29A24F6C-31C6-4A44-AA2E-4A4D6D01DE2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29A24F6C-31C6-4A44-AA2E-4A4D6D01DE2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29A24F6C-31C6-4A44-AA2E-4A4D6D01DE2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82CDF8BC-172F-44F3-87A0-3CBAFD834A06}
+	EndGlobalSection
+EndGlobal
