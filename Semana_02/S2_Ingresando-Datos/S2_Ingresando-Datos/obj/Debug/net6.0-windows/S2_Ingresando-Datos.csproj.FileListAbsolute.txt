@@ -1,0 +1,17 @@
+C:\Users\ezequ\source\repos\POO\Semana_02\S2_Ingresando-Datos\S2_Ingresando-Datos\bin\Debug\net6.0-windows\S2_Ingresando-Datos.exe
+C:\Users\ezequ\source\repos\POO\Semana_02\S2_Ingresando-Datos\S2_Ingresando-Datos\bin\Debug\net6.0-windows\S2_Ingresando-Datos.deps.json
+C:\Users\ezequ\source\repos\POO\Semana_02\S2_Ingresando-Datos\S2_Ingresando-Datos\bin\Debug\net6.0-windows\S2_Ingresando-Datos.runtimeconfig.json
+C:\Users\ezequ\source\repos\POO\Semana_02\S2_Ingresando-Datos\S2_Ingresando-Datos\bin\Debug\net6.0-windows\S2_Ingresando-Datos.dll
+C:\Users\ezequ\source\repos\POO\Semana_02\S2_Ingresando-Datos\S2_Ingresando-Datos\bin\Debug\net6.0-windows\S2_Ingresando-Datos.pdb
+C:\Users\ezequ\source\repos\POO\Semana_02\S2_Ingresando-Datos\S2_Ingresando-Datos\obj\Debug\net6.0-windows\S2_Ingresando_Datos.Form1.resources
+C:\Users\ezequ\source\repos\POO\Semana_02\S2_Ingresando-Datos\S2_Ingresando-Datos\obj\Debug\net6.0-windows\S2_Ingresando-Datos.csproj.GenerateResource.cache
+C:\Users\ezequ\source\repos\POO\Semana_02\S2_Ingresando-Datos\S2_Ingresando-Datos\obj\Debug\net6.0-windows\S2_Ingresando-Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ezequ\source\repos\POO\Semana_02\S2_Ingresando-Datos\S2_Ingresando-Datos\obj\Debug\net6.0-windows\S2_Ingresando-Datos.AssemblyInfoInputs.cache
+C:\Users\ezequ\source\repos\POO\Semana_02\S2_Ingresando-Datos\S2_Ingresando-Datos\obj\Debug\net6.0-windows\S2_Ingresando-Datos.AssemblyInfo.cs
+C:\Users\ezequ\source\repos\POO\Semana_02\S2_Ingresando-Datos\S2_Ingresando-Datos\obj\Debug\net6.0-windows\S2_Ingresando-Datos.csproj.CoreCompileInputs.cache
+C:\Users\ezequ\source\repos\POO\Semana_02\S2_Ingresando-Datos\S2_Ingresando-Datos\obj\Debug\net6.0-windows\S2_Ingresando-Datos.sourcelink.json
+C:\Users\ezequ\source\repos\POO\Semana_02\S2_Ingresando-Datos\S2_Ingresando-Datos\obj\Debug\net6.0-windows\S2_Ingresando-Datos.dll
+C:\Users\ezequ\source\repos\POO\Semana_02\S2_Ingresando-Datos\S2_Ingresando-Datos\obj\Debug\net6.0-windows\refint\S2_Ingresando-Datos.dll
+C:\Users\ezequ\source\repos\POO\Semana_02\S2_Ingresando-Datos\S2_Ingresando-Datos\obj\Debug\net6.0-windows\S2_Ingresando-Datos.pdb
+C:\Users\ezequ\source\repos\POO\Semana_02\S2_Ingresando-Datos\S2_Ingresando-Datos\obj\Debug\net6.0-windows\S2_Ingresando-Datos.genruntimeconfig.cache
+C:\Users\ezequ\source\repos\POO\Semana_02\S2_Ingresando-Datos\S2_Ingresando-Datos\obj\Debug\net6.0-windows\ref\S2_Ingresando-Datos.dll

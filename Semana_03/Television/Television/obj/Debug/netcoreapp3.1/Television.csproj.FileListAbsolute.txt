@@ -1,0 +1,7 @@
+C:\Users\ezequ\source\repos\POO\Semana_03\Television\Television\obj\Debug\netcoreapp3.1\Television.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ezequ\source\repos\POO\Semana_03\Television\Television\obj\Debug\netcoreapp3.1\Television.AssemblyInfoInputs.cache
+C:\Users\ezequ\source\repos\POO\Semana_03\Television\Television\obj\Debug\netcoreapp3.1\Television.AssemblyInfo.cs
+C:\Users\ezequ\source\repos\POO\Semana_03\Television\Television\obj\Debug\netcoreapp3.1\Television.csproj.CoreCompileInputs.cache
+C:\Users\ezequ\source\repos\POO\Semana_03\Television\Television\obj\Debug\netcoreapp3.1\Television.sourcelink.json
+C:\Users\ezequ\source\repos\POO\Semana_03\Television\Television\obj\Debug\netcoreapp3.1\Television.dll
+C:\Users\ezequ\source\repos\POO\Semana_03\Television\Television\obj\Debug\netcoreapp3.1\Television.pdb
