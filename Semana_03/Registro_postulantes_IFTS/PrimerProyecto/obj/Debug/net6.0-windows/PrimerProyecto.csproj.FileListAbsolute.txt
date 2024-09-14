@@ -1,0 +1,16 @@
+C:\Users\ezequ\Desktop\IFTS29\02_SEGUNDO_CUATRIMESTRE\03_DSOO\Semana_02\PrimerProyecto\PrimerProyecto\bin\Debug\net6.0-windows\PrimerProyecto.exe
+C:\Users\ezequ\Desktop\IFTS29\02_SEGUNDO_CUATRIMESTRE\03_DSOO\Semana_02\PrimerProyecto\PrimerProyecto\bin\Debug\net6.0-windows\PrimerProyecto.deps.json
+C:\Users\ezequ\Desktop\IFTS29\02_SEGUNDO_CUATRIMESTRE\03_DSOO\Semana_02\PrimerProyecto\PrimerProyecto\bin\Debug\net6.0-windows\PrimerProyecto.runtimeconfig.json
+C:\Users\ezequ\Desktop\IFTS29\02_SEGUNDO_CUATRIMESTRE\03_DSOO\Semana_02\PrimerProyecto\PrimerProyecto\bin\Debug\net6.0-windows\PrimerProyecto.dll
+C:\Users\ezequ\Desktop\IFTS29\02_SEGUNDO_CUATRIMESTRE\03_DSOO\Semana_02\PrimerProyecto\PrimerProyecto\bin\Debug\net6.0-windows\PrimerProyecto.pdb
+C:\Users\ezequ\Desktop\IFTS29\02_SEGUNDO_CUATRIMESTRE\03_DSOO\Semana_02\PrimerProyecto\PrimerProyecto\obj\Debug\net6.0-windows\PrimerProyecto.frmPrincipal.resources
+C:\Users\ezequ\Desktop\IFTS29\02_SEGUNDO_CUATRIMESTRE\03_DSOO\Semana_02\PrimerProyecto\PrimerProyecto\obj\Debug\net6.0-windows\PrimerProyecto.csproj.GenerateResource.cache
+C:\Users\ezequ\Desktop\IFTS29\02_SEGUNDO_CUATRIMESTRE\03_DSOO\Semana_02\PrimerProyecto\PrimerProyecto\obj\Debug\net6.0-windows\PrimerProyecto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ezequ\Desktop\IFTS29\02_SEGUNDO_CUATRIMESTRE\03_DSOO\Semana_02\PrimerProyecto\PrimerProyecto\obj\Debug\net6.0-windows\PrimerProyecto.AssemblyInfoInputs.cache
+C:\Users\ezequ\Desktop\IFTS29\02_SEGUNDO_CUATRIMESTRE\03_DSOO\Semana_02\PrimerProyecto\PrimerProyecto\obj\Debug\net6.0-windows\PrimerProyecto.AssemblyInfo.cs
+C:\Users\ezequ\Desktop\IFTS29\02_SEGUNDO_CUATRIMESTRE\03_DSOO\Semana_02\PrimerProyecto\PrimerProyecto\obj\Debug\net6.0-windows\PrimerProyecto.csproj.CoreCompileInputs.cache
+C:\Users\ezequ\Desktop\IFTS29\02_SEGUNDO_CUATRIMESTRE\03_DSOO\Semana_02\PrimerProyecto\PrimerProyecto\obj\Debug\net6.0-windows\PrimerProyecto.dll
+C:\Users\ezequ\Desktop\IFTS29\02_SEGUNDO_CUATRIMESTRE\03_DSOO\Semana_02\PrimerProyecto\PrimerProyecto\obj\Debug\net6.0-windows\refint\PrimerProyecto.dll
+C:\Users\ezequ\Desktop\IFTS29\02_SEGUNDO_CUATRIMESTRE\03_DSOO\Semana_02\PrimerProyecto\PrimerProyecto\obj\Debug\net6.0-windows\PrimerProyecto.pdb
+C:\Users\ezequ\Desktop\IFTS29\02_SEGUNDO_CUATRIMESTRE\03_DSOO\Semana_02\PrimerProyecto\PrimerProyecto\obj\Debug\net6.0-windows\PrimerProyecto.genruntimeconfig.cache
+C:\Users\ezequ\Desktop\IFTS29\02_SEGUNDO_CUATRIMESTRE\03_DSOO\Semana_02\PrimerProyecto\PrimerProyecto\obj\Debug\net6.0-windows\ref\PrimerProyecto.dll
