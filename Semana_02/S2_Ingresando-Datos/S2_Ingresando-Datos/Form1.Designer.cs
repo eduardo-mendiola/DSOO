@@ -34,6 +34,7 @@
             txtDato2 = new TextBox();
             btnAceptar = new Button();
             btnCalcular = new Button();
+            btnDatos = new Button();
             SuspendLayout();
             // 
             // lblDato1
@@ -72,7 +73,7 @@
             // 
             // btnAceptar
             // 
-            btnAceptar.Location = new Point(181, 254);
+            btnAceptar.Location = new Point(181, 213);
             btnAceptar.Name = "btnAceptar";
             btnAceptar.Size = new Size(157, 50);
             btnAceptar.TabIndex = 4;
@@ -88,12 +89,24 @@
             btnCalcular.TabIndex = 5;
             btnCalcular.Text = "CALCULAR";
             btnCalcular.UseVisualStyleBackColor = true;
+            btnCalcular.Click += btnCalcular_Click;
+            // 
+            // btnDatos
+            // 
+            btnDatos.Location = new Point(181, 284);
+            btnDatos.Name = "btnDatos";
+            btnDatos.Size = new Size(157, 50);
+            btnDatos.TabIndex = 6;
+            btnDatos.Text = "DATOS";
+            btnDatos.UseVisualStyleBackColor = true;
+            btnDatos.Click += btnDatos_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(438, 450);
+            Controls.Add(btnDatos);
             Controls.Add(btnCalcular);
             Controls.Add(btnAceptar);
             Controls.Add(txtDato2);
@@ -114,5 +127,6 @@
         private TextBox txtDato2;
         private Button btnAceptar;
         private Button btnCalcular;
+        private Button btnDatos;
     }
 }

@@ -22,5 +22,13 @@ namespace PrimerProyecto
             // Mostrar los datos en un MessageBox
             MessageBox.Show(postulante.ToString(), "Datos del Postulante");
         }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            txtNombre.Text = "";
+            txtApellido.Text = "";
+            cboComboBoxTipo.Text = "";
+            txtDocumento.Text = "";
+        }
     }
 }

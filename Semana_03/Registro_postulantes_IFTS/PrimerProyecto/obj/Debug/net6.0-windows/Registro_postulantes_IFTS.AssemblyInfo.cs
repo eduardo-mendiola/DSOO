@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Registro_postulantes_IFTS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7481c20802cb679180bbaac2960dbe6979595bb4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+577e212573143c77da10311595615ae6b59bca1f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Registro_postulantes_IFTS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Registro_postulantes_IFTS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("S2_Ingresando-Datos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b30ae0cde3eaf18fc856d0f66d4e743818bb3c4c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+577e212573143c77da10311595615ae6b59bca1f")]
 [assembly: System.Reflection.AssemblyProductAttribute("S2_Ingresando-Datos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("S2_Ingresando-Datos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -114,6 +114,7 @@
             btnLimpiar.TabIndex = 7;
             btnLimpiar.Text = "LIMPIAR";
             btnLimpiar.UseVisualStyleBackColor = true;
+            btnLimpiar.Click += btnLimpiar_Click;
             // 
             // lblTipo
             // 
