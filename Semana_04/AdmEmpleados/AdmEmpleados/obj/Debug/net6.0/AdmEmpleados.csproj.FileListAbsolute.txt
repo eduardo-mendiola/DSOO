@@ -1,8 +1,3 @@
-C:\Users\ezequ\source\repos\POO\Semana_04\AdmEmpleados\AdmEmpleados\bin\Debug\net6.0\AdmEmpleados.exe
-C:\Users\ezequ\source\repos\POO\Semana_04\AdmEmpleados\AdmEmpleados\bin\Debug\net6.0\AdmEmpleados.deps.json
-C:\Users\ezequ\source\repos\POO\Semana_04\AdmEmpleados\AdmEmpleados\bin\Debug\net6.0\AdmEmpleados.runtimeconfig.json
-C:\Users\ezequ\source\repos\POO\Semana_04\AdmEmpleados\AdmEmpleados\bin\Debug\net6.0\AdmEmpleados.dll
-C:\Users\ezequ\source\repos\POO\Semana_04\AdmEmpleados\AdmEmpleados\bin\Debug\net6.0\AdmEmpleados.pdb
 C:\Users\ezequ\source\repos\POO\Semana_04\AdmEmpleados\AdmEmpleados\obj\Debug\net6.0\AdmEmpleados.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ezequ\source\repos\POO\Semana_04\AdmEmpleados\AdmEmpleados\obj\Debug\net6.0\AdmEmpleados.AssemblyInfoInputs.cache
 C:\Users\ezequ\source\repos\POO\Semana_04\AdmEmpleados\AdmEmpleados\obj\Debug\net6.0\AdmEmpleados.AssemblyInfo.cs
@@ -11,5 +6,3 @@ C:\Users\ezequ\source\repos\POO\Semana_04\AdmEmpleados\AdmEmpleados\obj\Debug\ne
 C:\Users\ezequ\source\repos\POO\Semana_04\AdmEmpleados\AdmEmpleados\obj\Debug\net6.0\AdmEmpleados.dll
 C:\Users\ezequ\source\repos\POO\Semana_04\AdmEmpleados\AdmEmpleados\obj\Debug\net6.0\refint\AdmEmpleados.dll
 C:\Users\ezequ\source\repos\POO\Semana_04\AdmEmpleados\AdmEmpleados\obj\Debug\net6.0\AdmEmpleados.pdb
-C:\Users\ezequ\source\repos\POO\Semana_04\AdmEmpleados\AdmEmpleados\obj\Debug\net6.0\AdmEmpleados.genruntimeconfig.cache
-C:\Users\ezequ\source\repos\POO\Semana_04\AdmEmpleados\AdmEmpleados\obj\Debug\net6.0\ref\AdmEmpleados.dll
