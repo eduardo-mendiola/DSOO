@@ -1,60 +1,65 @@
-﻿using MySql.Data.MySqlClient;
-using MySqlX.XDevAPI;
-using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MySql.Data.MySqlClient; // Librería para interactuar con MySQL
+using System; 
+using System.Collections.Generic; 
+using System.Data; 
+using System.Linq; 
+using System.Text; 
+using System.Threading.Tasks; 
 
-namespace DiseñoLogin.Datos
+namespace DiseñoLogin.Datos 
 {
-    internal class Usuarios
+    internal class Usuarios 
     {
-        // Creamos un metodo que retorne una tabla con la informnación
+        // Método que retorna un DataTable con la información de usuario tras un intento de inicio de sesión
+        /*
+         Una DataTable es una clase en .NET que representa una tabla en memoria. Es parte del espacio de nombres 
+         System.Data y se utiliza comúnmente para almacenar y manipular datos en aplicaciones que trabajan con 
+         bases de datos. Aquí hay una descripción más detallada sobre qué es una DataTable.
+         */
         public DataTable Log_Usu(string L_Usu, string P_Usu)
         {
-            MySqlDataReader resuldato; // Variable de tipo datareader
-            DataTable tabla = new DataTable();
-            MySqlConnection sqlCon = new MySqlConnection();
+            MySqlDataReader resultado; // Variable para leer los resultados de la consulta
+            DataTable tabla = new DataTable(); // DataTable para almacenar los resultados de la consulta
+            MySqlConnection sqlCon = new MySqlConnection(); // Inicialización de la conexión a la base de datos
+
             try
             {
+                // Obtener la conexión usando el método de la clase Conexion
                 sqlCon = Conexion.getInstancia().CrearConexion();
 
-                // El comando es un elemento que almacena en este caso el nombre
-                // del procedimiento almacenado y la referencia a la conexión
+                // Crear un comando SQL que ejecutará el procedimiento almacenado 'ingresoLogin'
+                MySqlCommand comando = new MySqlCommand("ingresoLogin", sqlCon)
+                {
+                    CommandType = CommandType.StoredProcedure // Especificar que es un procedimiento almacenado
+                };
 
-                MySqlCommand comando = new MySqlCommand("ingresoLogin", sqlCon);
+                // Definir los parámetros para el procedimiento almacenado
+                comando.Parameters.Add("Usu", MySqlDbType.VarChar).Value = L_Usu; // Agregar el parámetro de usuario
+                comando.Parameters.Add("Pass", MySqlDbType.VarChar).Value = P_Usu; // Agregar el parámetro de contraseña
 
-                comando.CommandType = CommandType.StoredProcedure;
-
-                // Definimos los parametros que tiene el procedura
-
-                comando.Parameters.Add("Usu", MySqlDbType.VarChar).Value = L_Usu;
-
-                comando.Parameters.Add("Pass", MySqlDbType.VarChar).Value=P_Usu;
-
-                // Abrimos la conexion
+                // Abrir la conexión a la base de datos
                 sqlCon.Open();
-                resuldato = comando.ExecuteReader();
-                // Almacenamos el resultado en la variable
-                tabla.Load(resuldato); // Cargamos la tabla con el resultado
 
-                // De esta forma esta asociado el metodo con el procedure que esta almacenado en MySQL
+                // Ejecutar el comando y almacenar el resultado en 'resultado'
+                resultado = comando.ExecuteReader();
 
+                // Cargar el resultado del DataReader en el DataTable
+                tabla.Load(resultado); // Llenar el DataTable con los datos devueltos por el procedimiento almacenado
 
-                return tabla;
+                // De esta forma, este método se asocia con el procedimiento almacenado en MySQL
+
+                return tabla; // Retornar el DataTable con los resultados
             }
-            catch (Exception ex)
+            catch (Exception ex) // Manejo de excepciones
             {
-                throw;
+                throw; // Relanzar la excepción para ser manejada en un nivel superior
             }
-            // Como proceso final
             finally
             {
+                // Cerrar la conexión si está abierta
                 if (sqlCon.State == ConnectionState.Open)
                 {
-                    sqlCon.Close();
+                    sqlCon.Close(); // Cerrar la conexión para liberar recursos
                 }
             }
         }
