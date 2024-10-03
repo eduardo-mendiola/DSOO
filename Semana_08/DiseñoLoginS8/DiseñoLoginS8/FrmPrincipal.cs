@@ -2,9 +2,9 @@ using DiseñoLoginS8;
 
 namespace DiseñoLoginS8
 {
-    public partial class frmPrincipal : Form
+    public partial class FrmPrincipal : Form
     {
-        public frmPrincipal()
+        public FrmPrincipal()
         {
             InitializeComponent();
         }

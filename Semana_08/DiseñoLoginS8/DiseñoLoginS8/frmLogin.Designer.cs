@@ -1,6 +1,6 @@
 ﻿namespace DiseñoLoginS8
 {
-    partial class frmLogin
+    partial class FrmLogin
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogin));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmLogin));
             picLogo = new PictureBox();
             lblUser = new Label();
             txtUser = new TextBox();
@@ -67,7 +67,7 @@
             txtUser.Location = new Point(531, 105);
             txtUser.Name = "txtUser";
             txtUser.Size = new Size(226, 39);
-            txtUser.TabIndex = 2;
+            txtUser.TabIndex = 0;
             // 
             // btnIngresar
             // 
@@ -76,7 +76,7 @@
             btnIngresar.Location = new Point(451, 242);
             btnIngresar.Name = "btnIngresar";
             btnIngresar.Size = new Size(249, 96);
-            btnIngresar.TabIndex = 3;
+            btnIngresar.TabIndex = 2;
             btnIngresar.Text = "Ingresar";
             btnIngresar.UseVisualStyleBackColor = true;
             btnIngresar.Click += btnIngresar_Click;
@@ -88,7 +88,7 @@
             txtPass.Name = "txtPass";
             txtPass.PasswordChar = '*';
             txtPass.Size = new Size(226, 39);
-            txtPass.TabIndex = 4;
+            txtPass.TabIndex = 1;
             // 
             // lblPass
             // 
@@ -112,7 +112,7 @@
             lblIFTS29.TabIndex = 6;
             lblIFTS29.Text = "IFTS 29";
             // 
-            // frmLogin
+            // FrmLogin
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -124,7 +124,7 @@
             Controls.Add(txtUser);
             Controls.Add(lblUser);
             Controls.Add(picLogo);
-            Name = "frmLogin";
+            Name = "FrmLogin";
             Text = "Login";
             ((System.ComponentModel.ISupportInitialize)picLogo).EndInit();
             ResumeLayout(false);

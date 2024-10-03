@@ -1,6 +1,6 @@
 ﻿namespace DiseñoLoginS8
 {
-    partial class frmPrincipal
+    partial class FrmPrincipal
     {
         /// <summary>
         ///  Required designer variable.
@@ -181,7 +181,7 @@
             Documento.Name = "Documento";
             Documento.Width = 125;
             // 
-            // frmPrincipal
+            // FrmPrincipal
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -198,7 +198,7 @@
             Controls.Add(lblApellido);
             Controls.Add(lblDocumento);
             Controls.Add(lblNombre);
-            Name = "frmPrincipal";
+            Name = "FrmPrincipal";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "PRIMER PROYECTO";
             ((System.ComponentModel.ISupportInitialize)dtgvPostulante).EndInit();
