@@ -86,6 +86,7 @@
             txtPass.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
             txtPass.Location = new Point(531, 171);
             txtPass.Name = "txtPass";
+            txtPass.PasswordChar = '*';
             txtPass.Size = new Size(226, 39);
             txtPass.TabIndex = 4;
             // 
