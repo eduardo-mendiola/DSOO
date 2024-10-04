@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DiseñoLoginS8")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+edbf3de60e34551b4a1bd140816f629d973b8dff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18119594eab81841c32c5d397032e887db4ca976")]
 [assembly: System.Reflection.AssemblyProductAttribute("DiseñoLoginS8")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DiseñoLoginS8")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -41,7 +41,6 @@
             // 
             // picLogo
             // 
-            picLogo.BackgroundImage = (Image)resources.GetObject("picLogo.BackgroundImage");
             picLogo.Image = (Image)resources.GetObject("picLogo.Image");
             picLogo.Location = new Point(21, 33);
             picLogo.Name = "picLogo";
