@@ -1,0 +1,15 @@
+C:\Users\ezequ\source\repos\POO\Semana_08\Sistema_Gestion_Productos\Sistema_Gestion_Productos\bin\Debug\net6.0\Sistema_Gestion_Productos.exe
+C:\Users\ezequ\source\repos\POO\Semana_08\Sistema_Gestion_Productos\Sistema_Gestion_Productos\bin\Debug\net6.0\Sistema_Gestion_Productos.deps.json
+C:\Users\ezequ\source\repos\POO\Semana_08\Sistema_Gestion_Productos\Sistema_Gestion_Productos\bin\Debug\net6.0\Sistema_Gestion_Productos.runtimeconfig.json
+C:\Users\ezequ\source\repos\POO\Semana_08\Sistema_Gestion_Productos\Sistema_Gestion_Productos\bin\Debug\net6.0\Sistema_Gestion_Productos.dll
+C:\Users\ezequ\source\repos\POO\Semana_08\Sistema_Gestion_Productos\Sistema_Gestion_Productos\bin\Debug\net6.0\Sistema_Gestion_Productos.pdb
+C:\Users\ezequ\source\repos\POO\Semana_08\Sistema_Gestion_Productos\Sistema_Gestion_Productos\obj\Debug\net6.0\Sistema_Gestion_Productos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ezequ\source\repos\POO\Semana_08\Sistema_Gestion_Productos\Sistema_Gestion_Productos\obj\Debug\net6.0\Sistema_Gestion_Productos.AssemblyInfoInputs.cache
+C:\Users\ezequ\source\repos\POO\Semana_08\Sistema_Gestion_Productos\Sistema_Gestion_Productos\obj\Debug\net6.0\Sistema_Gestion_Productos.AssemblyInfo.cs
+C:\Users\ezequ\source\repos\POO\Semana_08\Sistema_Gestion_Productos\Sistema_Gestion_Productos\obj\Debug\net6.0\Sistema_Gestion_Productos.csproj.CoreCompileInputs.cache
+C:\Users\ezequ\source\repos\POO\Semana_08\Sistema_Gestion_Productos\Sistema_Gestion_Productos\obj\Debug\net6.0\Sistema_Gestion_Productos.sourcelink.json
+C:\Users\ezequ\source\repos\POO\Semana_08\Sistema_Gestion_Productos\Sistema_Gestion_Productos\obj\Debug\net6.0\Sistema_Gestion_Productos.dll
+C:\Users\ezequ\source\repos\POO\Semana_08\Sistema_Gestion_Productos\Sistema_Gestion_Productos\obj\Debug\net6.0\refint\Sistema_Gestion_Productos.dll
+C:\Users\ezequ\source\repos\POO\Semana_08\Sistema_Gestion_Productos\Sistema_Gestion_Productos\obj\Debug\net6.0\Sistema_Gestion_Productos.pdb
+C:\Users\ezequ\source\repos\POO\Semana_08\Sistema_Gestion_Productos\Sistema_Gestion_Productos\obj\Debug\net6.0\Sistema_Gestion_Productos.genruntimeconfig.cache
+C:\Users\ezequ\source\repos\POO\Semana_08\Sistema_Gestion_Productos\Sistema_Gestion_Productos\obj\Debug\net6.0\ref\Sistema_Gestion_Productos.dll

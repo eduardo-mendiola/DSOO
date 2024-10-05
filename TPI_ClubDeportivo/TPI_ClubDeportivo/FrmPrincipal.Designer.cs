@@ -50,7 +50,7 @@
             // 
             lblNombre.BackColor = Color.FromArgb(224, 224, 224);
             lblNombre.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
-            lblNombre.Location = new Point(53, 55);
+            lblNombre.Location = new Point(51, 185);
             lblNombre.Name = "lblNombre";
             lblNombre.Size = new Size(111, 25);
             lblNombre.TabIndex = 0;
@@ -62,7 +62,7 @@
             lblDocumento.AutoSize = true;
             lblDocumento.BackColor = Color.FromArgb(224, 224, 224);
             lblDocumento.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
-            lblDocumento.Location = new Point(328, 215);
+            lblDocumento.Location = new Point(326, 345);
             lblDocumento.Name = "lblDocumento";
             lblDocumento.Size = new Size(111, 25);
             lblDocumento.TabIndex = 1;
@@ -72,7 +72,7 @@
             // 
             lblApellido.BackColor = Color.FromArgb(224, 224, 224);
             lblApellido.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
-            lblApellido.Location = new Point(53, 147);
+            lblApellido.Location = new Point(51, 277);
             lblApellido.Name = "lblApellido";
             lblApellido.Size = new Size(111, 25);
             lblApellido.TabIndex = 2;
@@ -81,21 +81,21 @@
             // 
             // txtNombre
             // 
-            txtNombre.Location = new Point(234, 56);
+            txtNombre.Location = new Point(232, 186);
             txtNombre.Name = "txtNombre";
             txtNombre.Size = new Size(205, 31);
             txtNombre.TabIndex = 3;
             // 
             // txtApellido
             // 
-            txtApellido.Location = new Point(234, 147);
+            txtApellido.Location = new Point(232, 277);
             txtApellido.Name = "txtApellido";
             txtApellido.Size = new Size(205, 31);
             txtApellido.TabIndex = 4;
             // 
             // txtDocumento
             // 
-            txtDocumento.Location = new Point(462, 212);
+            txtDocumento.Location = new Point(460, 342);
             txtDocumento.Name = "txtDocumento";
             txtDocumento.Size = new Size(205, 31);
             txtDocumento.TabIndex = 5;
@@ -103,7 +103,7 @@
             // btnIngresar
             // 
             btnIngresar.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
-            btnIngresar.Location = new Point(497, 56);
+            btnIngresar.Location = new Point(495, 455);
             btnIngresar.Name = "btnIngresar";
             btnIngresar.Size = new Size(170, 52);
             btnIngresar.TabIndex = 6;
@@ -114,7 +114,7 @@
             // btnLimpiar
             // 
             btnLimpiar.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
-            btnLimpiar.Location = new Point(497, 126);
+            btnLimpiar.Location = new Point(305, 455);
             btnLimpiar.Name = "btnLimpiar";
             btnLimpiar.Size = new Size(170, 52);
             btnLimpiar.TabIndex = 7;
@@ -127,7 +127,7 @@
             lblTipo.AutoSize = true;
             lblTipo.BackColor = Color.FromArgb(224, 224, 224);
             lblTipo.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
-            lblTipo.Location = new Point(53, 218);
+            lblTipo.Location = new Point(51, 348);
             lblTipo.Name = "lblTipo";
             lblTipo.Size = new Size(50, 25);
             lblTipo.TabIndex = 8;
@@ -137,7 +137,7 @@
             // 
             cboComboBoxTipo.FormattingEnabled = true;
             cboComboBoxTipo.Items.AddRange(new object[] { "DNI", "PASAPORTE", "EXTRANJERO" });
-            cboComboBoxTipo.Location = new Point(138, 214);
+            cboComboBoxTipo.Location = new Point(136, 344);
             cboComboBoxTipo.Name = "cboComboBoxTipo";
             cboComboBoxTipo.Size = new Size(150, 33);
             cboComboBoxTipo.TabIndex = 9;
@@ -146,11 +146,11 @@
             // 
             dtgvPostulante.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dtgvPostulante.Columns.AddRange(new DataGridViewColumn[] { Nombre, Apellido, Tipo, Documento });
-            dtgvPostulante.Location = new Point(53, 303);
+            dtgvPostulante.Location = new Point(53, 537);
             dtgvPostulante.Name = "dtgvPostulante";
             dtgvPostulante.RowHeadersWidth = 51;
             dtgvPostulante.RowTemplate.Height = 33;
-            dtgvPostulante.Size = new Size(614, 188);
+            dtgvPostulante.Size = new Size(614, 58);
             dtgvPostulante.TabIndex = 10;
             // 
             // Nombre
@@ -185,8 +185,8 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.LightGreen;
-            ClientSize = new Size(708, 522);
+            BackColor = SystemColors.Control;
+            ClientSize = new Size(708, 641);
             Controls.Add(dtgvPostulante);
             Controls.Add(cboComboBoxTipo);
             Controls.Add(lblTipo);
@@ -200,7 +200,7 @@
             Controls.Add(lblNombre);
             Name = "FrmPrincipal";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "PRIMER PROYECTO";
+            Text = "REGISTRO DE CLIENTES";
             ((System.ComponentModel.ISupportInitialize)dtgvPostulante).EndInit();
             ResumeLayout(false);
             PerformLayout();

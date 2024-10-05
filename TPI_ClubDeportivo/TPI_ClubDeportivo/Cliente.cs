@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace DiseñoLoginS8
 {
-    internal class Postulante
+    internal class Cliente
     {
         public String nombre { get; private set; }
         public String apellido { get; private set; }
         public String tipo { get; private set; }
         public String documento { get; private set; }
 
-        public Postulante(string nombre, string apellido, string tipo, string documento)
+        public Cliente(string nombre, string apellido, string tipo, string documento)
         {
             this.nombre = nombre;
             this.apellido = apellido;
