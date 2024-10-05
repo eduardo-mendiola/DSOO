@@ -9,8 +9,8 @@ namespace Sistema_Gestion_Productos
 
             List<Producto> listaDeProductos = new List<Producto>();
 
-            listaDeProductos.Add(new ProductoNoPerecedero("Fideos", 15.50, "No perecedero", "Pastas"));
-            listaDeProductos.Add(new ProductoNoPerecedero("Arroz", 20.75, "No perecedero", "Cereal"));
+            listaDeProductos.Add(new ProductoNoPerecedero("Fideos", 15.50, "No Perecedero", "Pasta"));
+            listaDeProductos.Add(new ProductoNoPerecedero("Arroz", 20.75, "No Perecedero", "Cereal"));
             listaDeProductos.Add(new ProductoPerecedero("Leche", 5.25, "Perecedero", 4));
             listaDeProductos.Add(new ProductoPerecedero("Leche", 5.25, "Perecedero", 3));
             listaDeProductos.Add(new ProductoPerecedero("Leche", 5.25, "Perecedero", 2));
@@ -19,7 +19,6 @@ namespace Sistema_Gestion_Productos
 
             int cantVenta = 5;
 
-            //listaDeProductos.ForEach(item => Console.WriteLine($"El precio final es: {item.calcularPrecioTotal(cantVenta)}"));
 
             foreach (var item in listaDeProductos)
             {
