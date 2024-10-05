@@ -20,7 +20,7 @@
         // TODO: Crear un método para mostrar los datos llamado "mostrarDatos: String".
 
         public virtual String mostrarDatos() => $"Nombre del producto: {nombre}" +
-                                              $"\n    Precio unitario: {precio}" +
+                                              $"\n    Precio unitario: ${precio}" +
                                               $"\n               Tipo: {tipo}\n";
     }
 
