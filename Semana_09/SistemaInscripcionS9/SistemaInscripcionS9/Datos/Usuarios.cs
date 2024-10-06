@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text; 
 using System.Threading.Tasks; 
 
-namespace DiseñoLogin.Datos 
+namespace SistemaInscripcionS9.Datos 
 {
     internal class Usuarios 
     {

@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using DiseñoLogin.Datos;
+using SistemaInscripcionS9.Datos;
 
 
 namespace SistemaInscripcionS9

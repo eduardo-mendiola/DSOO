@@ -1,6 +1,14 @@
-using Dise駉LoginS8;
+锘縰sing System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
 
-namespace Dise駉LoginS8
+namespace TPI_ClubDeportivo
 {
     public partial class FrmPrincipal : Form
     {
@@ -8,48 +16,52 @@ namespace Dise駉LoginS8
         {
             InitializeComponent();
         }
-        //private void btnIngresar_Click(object sender, EventArgs e)
+
+        /* __________________ VARIABLES tipo INTERNAL ______________________
+         Ser谩n accesibles desde el ensamblado en el cual est谩n declarados
+         y tampoco se pueden utilizar en el interior de una funci贸n.
+        ____________________________________________________________________ 
+        */
+
+        internal String? rol;
+        internal String? usuario;
+
+        //private void frmPrincipal_Load(object sender, EventArgs e)
         //{
-        //    // Obtener los valores ingresados en los TextBox y ComboBox
-        //    string nombre = txtNombre.Text;
-        //    string apellido = txtApellido.Text;
-        //    string tipo = cboComboBoxTipo.Text;
-        //    string documento = txtDocumento.Text;
-
-        //    // Crear un objeto Postulante con los datos
-        //    Postulante postulante = new Postulante(nombre, apellido, tipo, documento);
-
-        //    // Mostrar los datos en un MessageBox
-        //    MessageBox.Show(postulante.ToString(), "Datos del Postulante");
+        //    // Verificar si los valores de usuario y rol no son nulos antes de asignarlos al label
+        //    if (!string.IsNullOrEmpty(usuario) && !string.IsNullOrEmpty(rol))
+        //    {
+        //        lblIngreso.Text = $"USUARIO: {usuario} ({rol})";
+        //    }
+        //    else
+        //    {
+        //        lblIngreso.Text = "USUARIO: Informaci贸n no disponible";
+        //    }
         //}
 
-        private void btnIngresar_Click(object sender, EventArgs e)
+        private void FrmPrincipal_Load(object sender, EventArgs e)
         {
-            string nombre = txtNombre.Text;
-            string apellido = txtApellido.Text;
-            string tipo = cboComboBoxTipo.Text;
-            string documento = txtDocumento.Text;
-
-            int renglon = dtgvPostulante.Rows.Add();
-
-            dtgvPostulante.Rows[renglon].Cells[0].Value = nombre;
-            dtgvPostulante.Rows[renglon].Cells[1].Value = apellido;
-            dtgvPostulante.Rows[renglon].Cells[2].Value = tipo;
-            dtgvPostulante.Rows[renglon].Cells[3].Value = documento;
-
-            txtNombre.Text = "";
-            txtApellido.Text = "";
-            cboComboBoxTipo.Text = "";
-            txtDocumento.Text = "";
-
+            lblIngreso.Text = $"USUARIO: {usuario} ({rol})";
         }
 
-        private void btnLimpiar_Click(object sender, EventArgs e)
+
+        private void btnSalir_Click(object sender, EventArgs e)
         {
-            txtNombre.Text = "";
-            txtApellido.Text = "";
-            cboComboBoxTipo.Text = "";
-            txtDocumento.Text = "";
+            /* Notifica a todos los surtidores de mensajes que deben terminar
+               y a continuaci贸n, cierra todas las ventanas de la aplicaci贸n.
+            ------------------------------------------------------------------
+            */
+
+            Application.Exit();
+        }
+
+        // Abre el formulario de inscripci贸n
+        private void btnInscribir_Click(Object sender, EventArgs e)
+        {
+            FrmRegistro inscripcion = new FrmRegistro();
+            inscripcion.Owner = this;  // Establecer frmPrincipal como due帽o
+            inscripcion.Show();
+            this.Hide();
         }
     }
 }

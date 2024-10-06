@@ -1,14 +1,14 @@
-﻿namespace DiseñoLoginS8
+﻿namespace TPI_ClubDeportivo
 {
     partial class FrmPrincipal
     {
         /// <summary>
-        ///  Required designer variable.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        ///  Clean up any resources being used.
+        /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
@@ -23,205 +23,112 @@
         #region Windows Form Designer generated code
 
         /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            lblNombre = new Label();
-            lblDocumento = new Label();
-            lblApellido = new Label();
-            txtNombre = new TextBox();
-            txtApellido = new TextBox();
-            txtDocumento = new TextBox();
-            btnIngresar = new Button();
-            btnLimpiar = new Button();
-            lblTipo = new Label();
-            cboComboBoxTipo = new ComboBox();
-            dtgvPostulante = new DataGridView();
-            Nombre = new DataGridViewTextBoxColumn();
-            Apellido = new DataGridViewTextBoxColumn();
-            Tipo = new DataGridViewTextBoxColumn();
-            Documento = new DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)dtgvPostulante).BeginInit();
+            lblIngreso = new Label();
+            btnSalir = new Button();
+            button2 = new Button();
+            btnAsignarCurso = new Button();
+            btnPagarCurso = new Button();
+            btnEmitirCompCurso = new Button();
             SuspendLayout();
             // 
-            // lblNombre
+            // lblIngreso
             // 
-            lblNombre.BackColor = Color.FromArgb(224, 224, 224);
-            lblNombre.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
-            lblNombre.Location = new Point(51, 185);
-            lblNombre.Name = "lblNombre";
-            lblNombre.Size = new Size(111, 25);
-            lblNombre.TabIndex = 0;
-            lblNombre.Text = "Nombre";
-            lblNombre.TextAlign = ContentAlignment.TopCenter;
+            lblIngreso.AutoSize = true;
+            lblIngreso.Font = new Font("Futura Md BT", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            lblIngreso.Location = new Point(27, 39);
+            lblIngreso.Name = "lblIngreso";
+            lblIngreso.Size = new Size(339, 26);
+            lblIngreso.TabIndex = 0;
+            lblIngreso.Text = "Usuario: Prueba (Administrador)";
             // 
-            // lblDocumento
+            // btnSalir
             // 
-            lblDocumento.AutoSize = true;
-            lblDocumento.BackColor = Color.FromArgb(224, 224, 224);
-            lblDocumento.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
-            lblDocumento.Location = new Point(326, 345);
-            lblDocumento.Name = "lblDocumento";
-            lblDocumento.Size = new Size(111, 25);
-            lblDocumento.TabIndex = 1;
-            lblDocumento.Text = "Documento";
+            btnSalir.Font = new Font("Futura Md BT", 12F, FontStyle.Italic, GraphicsUnit.Point);
+            btnSalir.Location = new Point(702, 30);
+            btnSalir.Name = "btnSalir";
+            btnSalir.Size = new Size(131, 47);
+            btnSalir.TabIndex = 1;
+            btnSalir.Text = "Salir";
+            btnSalir.UseVisualStyleBackColor = true;
+            btnSalir.Click += btnSalir_Click;
             // 
-            // lblApellido
+            // button2
             // 
-            lblApellido.BackColor = Color.FromArgb(224, 224, 224);
-            lblApellido.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
-            lblApellido.Location = new Point(51, 277);
-            lblApellido.Name = "lblApellido";
-            lblApellido.Size = new Size(111, 25);
-            lblApellido.TabIndex = 2;
-            lblApellido.Text = "Apellido";
-            lblApellido.TextAlign = ContentAlignment.TopCenter;
+            button2.BackColor = Color.Khaki;
+            button2.Font = new Font("Futura Md BT", 13.8F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            button2.Location = new Point(42, 130);
+            button2.Name = "button2";
+            button2.Size = new Size(372, 118);
+            button2.TabIndex = 2;
+            button2.Text = "Registrar Cliente";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += btnInscribir_Click;
             // 
-            // txtNombre
+            // btnAsignarCurso
             // 
-            txtNombre.Location = new Point(232, 186);
-            txtNombre.Name = "txtNombre";
-            txtNombre.Size = new Size(205, 31);
-            txtNombre.TabIndex = 3;
+            btnAsignarCurso.BackColor = Color.LemonChiffon;
+            btnAsignarCurso.Font = new Font("Futura Md BT", 13.8F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            btnAsignarCurso.Location = new Point(461, 130);
+            btnAsignarCurso.Name = "btnAsignarCurso";
+            btnAsignarCurso.Size = new Size(372, 118);
+            btnAsignarCurso.TabIndex = 3;
+            btnAsignarCurso.Text = "Inscribir en Actividad";
+            btnAsignarCurso.UseVisualStyleBackColor = false;
             // 
-            // txtApellido
+            // btnPagarCurso
             // 
-            txtApellido.Location = new Point(232, 277);
-            txtApellido.Name = "txtApellido";
-            txtApellido.Size = new Size(205, 31);
-            txtApellido.TabIndex = 4;
+            btnPagarCurso.BackColor = Color.LemonChiffon;
+            btnPagarCurso.Font = new Font("Futura Md BT", 13.8F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            btnPagarCurso.Location = new Point(42, 320);
+            btnPagarCurso.Name = "btnPagarCurso";
+            btnPagarCurso.Size = new Size(372, 118);
+            btnPagarCurso.TabIndex = 4;
+            btnPagarCurso.Text = "Pagar Cuota";
+            btnPagarCurso.UseVisualStyleBackColor = false;
             // 
-            // txtDocumento
+            // btnEmitirCompCurso
             // 
-            txtDocumento.Location = new Point(460, 342);
-            txtDocumento.Name = "txtDocumento";
-            txtDocumento.Size = new Size(205, 31);
-            txtDocumento.TabIndex = 5;
-            // 
-            // btnIngresar
-            // 
-            btnIngresar.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
-            btnIngresar.Location = new Point(495, 455);
-            btnIngresar.Name = "btnIngresar";
-            btnIngresar.Size = new Size(170, 52);
-            btnIngresar.TabIndex = 6;
-            btnIngresar.Text = "INGRESAR";
-            btnIngresar.UseVisualStyleBackColor = true;
-            btnIngresar.Click += btnIngresar_Click;
-            // 
-            // btnLimpiar
-            // 
-            btnLimpiar.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
-            btnLimpiar.Location = new Point(305, 455);
-            btnLimpiar.Name = "btnLimpiar";
-            btnLimpiar.Size = new Size(170, 52);
-            btnLimpiar.TabIndex = 7;
-            btnLimpiar.Text = "LIMPIAR";
-            btnLimpiar.UseVisualStyleBackColor = true;
-            btnLimpiar.Click += btnLimpiar_Click;
-            // 
-            // lblTipo
-            // 
-            lblTipo.AutoSize = true;
-            lblTipo.BackColor = Color.FromArgb(224, 224, 224);
-            lblTipo.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
-            lblTipo.Location = new Point(51, 348);
-            lblTipo.Name = "lblTipo";
-            lblTipo.Size = new Size(50, 25);
-            lblTipo.TabIndex = 8;
-            lblTipo.Text = "Tipo";
-            // 
-            // cboComboBoxTipo
-            // 
-            cboComboBoxTipo.FormattingEnabled = true;
-            cboComboBoxTipo.Items.AddRange(new object[] { "DNI", "PASAPORTE", "EXTRANJERO" });
-            cboComboBoxTipo.Location = new Point(136, 344);
-            cboComboBoxTipo.Name = "cboComboBoxTipo";
-            cboComboBoxTipo.Size = new Size(150, 33);
-            cboComboBoxTipo.TabIndex = 9;
-            // 
-            // dtgvPostulante
-            // 
-            dtgvPostulante.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dtgvPostulante.Columns.AddRange(new DataGridViewColumn[] { Nombre, Apellido, Tipo, Documento });
-            dtgvPostulante.Location = new Point(53, 537);
-            dtgvPostulante.Name = "dtgvPostulante";
-            dtgvPostulante.RowHeadersWidth = 51;
-            dtgvPostulante.RowTemplate.Height = 33;
-            dtgvPostulante.Size = new Size(614, 58);
-            dtgvPostulante.TabIndex = 10;
-            // 
-            // Nombre
-            // 
-            Nombre.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Nombre.HeaderText = "Nombre";
-            Nombre.MinimumWidth = 6;
-            Nombre.Name = "Nombre";
-            // 
-            // Apellido
-            // 
-            Apellido.HeaderText = "Apellido";
-            Apellido.MinimumWidth = 6;
-            Apellido.Name = "Apellido";
-            Apellido.Width = 125;
-            // 
-            // Tipo
-            // 
-            Tipo.HeaderText = "Tipo";
-            Tipo.MinimumWidth = 6;
-            Tipo.Name = "Tipo";
-            Tipo.Width = 125;
-            // 
-            // Documento
-            // 
-            Documento.HeaderText = "Documento";
-            Documento.MinimumWidth = 6;
-            Documento.Name = "Documento";
-            Documento.Width = 125;
+            btnEmitirCompCurso.BackColor = Color.Khaki;
+            btnEmitirCompCurso.Font = new Font("Futura Md BT", 13.8F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            btnEmitirCompCurso.Location = new Point(461, 320);
+            btnEmitirCompCurso.Name = "btnEmitirCompCurso";
+            btnEmitirCompCurso.Size = new Size(372, 118);
+            btnEmitirCompCurso.TabIndex = 5;
+            btnEmitirCompCurso.Text = "Emitir datos Cliente";
+            btnEmitirCompCurso.UseVisualStyleBackColor = false;
             // 
             // FrmPrincipal
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
-            ClientSize = new Size(708, 641);
-            Controls.Add(dtgvPostulante);
-            Controls.Add(cboComboBoxTipo);
-            Controls.Add(lblTipo);
-            Controls.Add(btnLimpiar);
-            Controls.Add(btnIngresar);
-            Controls.Add(txtDocumento);
-            Controls.Add(txtApellido);
-            Controls.Add(txtNombre);
-            Controls.Add(lblApellido);
-            Controls.Add(lblDocumento);
-            Controls.Add(lblNombre);
+            ClientSize = new Size(876, 482);
+            Controls.Add(btnEmitirCompCurso);
+            Controls.Add(btnPagarCurso);
+            Controls.Add(btnAsignarCurso);
+            Controls.Add(button2);
+            Controls.Add(btnSalir);
+            Controls.Add(lblIngreso);
             Name = "FrmPrincipal";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "REGISTRO DE CLIENTES";
-            ((System.ComponentModel.ISupportInitialize)dtgvPostulante).EndInit();
+            Text = "VENTANA PRINCIPAL";
+            Load += FrmPrincipal_Load;
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Label lblNombre;
-        private Label lblDocumento;
-        private Label lblApellido;
-        private TextBox txtNombre;
-        private TextBox txtApellido;
-        private TextBox txtDocumento;
-        private Button btnIngresar;
-        private Button btnLimpiar;
-        private Label lblTipo;
-        private ComboBox cboComboBoxTipo;
-        private DataGridView dtgvPostulante;
-        private DataGridViewTextBoxColumn Nombre;
-        private DataGridViewTextBoxColumn Apellido;
-        private DataGridViewTextBoxColumn Tipo;
-        private DataGridViewTextBoxColumn Documento;
+        private Label lblIngreso;
+        private Button btnSalir;
+        private Button button2;
+        private Button btnAsignarCurso;
+        private Button btnPagarCurso;
+        private Button btnEmitirCompCurso;
     }
 }

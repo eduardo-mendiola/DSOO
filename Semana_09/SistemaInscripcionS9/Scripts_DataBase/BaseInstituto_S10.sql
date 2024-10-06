@@ -24,7 +24,8 @@ constraint fk_usuario foreign key(RolUsu) references roles(RolUsu)
 
 insert into usuario(CodUsu,NombreUsu,PassUsu,RolUsu) values
 (26,'Mari2023','123456',120),
-('27','UsuarioPrueba','Usu2023',120);
+('27','UsuarioPrueba','Usu2023',120),
+('28','a','0',120);
 
 /*  a partir de la semana 10  */
 

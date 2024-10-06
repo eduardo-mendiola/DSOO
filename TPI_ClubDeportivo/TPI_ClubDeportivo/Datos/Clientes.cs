@@ -1,4 +1,4 @@
-﻿using SistemaInscripcionS9.Datos.Entidades;
+﻿using TPI_ClubDeportivo.Datos;
 using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
@@ -6,13 +6,13 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SistemaInscripcionS9.Datos;
+using TPI_ClubDeportivo.Datos.Entidades;
 
-namespace SistemaInscripcionS9.Datos
+namespace TPI_ClubDeportivo.Datos
 {
-    internal class Postulantes
+    internal class Clientes
     {
-        public String Nuevo_Postu(E_Postulante postu)
+        public String Nuevo_Cliente(E_Cliente cliente)
         {
             String? salida;
 
@@ -21,13 +21,13 @@ namespace SistemaInscripcionS9.Datos
             try
             {
                 sqlCon = Conexion.getInstancia().CrearConexion();
-                MySqlCommand comando = new MySqlCommand("NuevoPos", sqlCon);
+                MySqlCommand comando = new MySqlCommand("NuevoCliente", sqlCon);
                 comando.CommandType = System.Data.CommandType.StoredProcedure;
 
-                comando.Parameters.Add("Nom", MySqlDbType.VarChar).Value = postu.NombreP;
-                comando.Parameters.Add("Ape", MySqlDbType.VarChar).Value = postu.ApellidoP;
-                comando.Parameters.Add("Tip", MySqlDbType.VarChar).Value = postu.TDocP;
-                comando.Parameters.Add("Doc", MySqlDbType.Int32).Value = postu.DocP;
+                comando.Parameters.Add("Nom", MySqlDbType.VarChar).Value = cliente.NombreC;
+                comando.Parameters.Add("Ape", MySqlDbType.VarChar).Value = cliente.ApellidoC;
+                comando.Parameters.Add("Tip", MySqlDbType.VarChar).Value = cliente.TDocC;
+                comando.Parameters.Add("Doc", MySqlDbType.Int32).Value = cliente.DocC;
 
                 MySqlParameter ParCodigo = new MySqlParameter();
                 ParCodigo.ParameterName = "rta";

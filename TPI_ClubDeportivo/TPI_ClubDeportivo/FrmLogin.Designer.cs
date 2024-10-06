@@ -1,4 +1,4 @@
-﻿namespace DiseñoLoginS8
+﻿namespace TPI_ClubDeportivo
 {
     partial class FrmLogin
     {

@@ -29,3 +29,17 @@ INSERT INTO usuario(NombreUsu,PassUsu,RolUsu) VALUES
 ('Jose', '1234', '121');
 
 
+
+/*  a partir de la semana 9  */
+
+
+create table cliente(
+NCliente int,
+NombreC varchar(30),
+ApellidoC varchar(40),
+TDocC varchar(20),
+DocC int,
+constraint pk_postulante primary key(NCliente)
+);
+
+

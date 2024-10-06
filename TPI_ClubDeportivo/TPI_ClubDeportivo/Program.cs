@@ -1,6 +1,6 @@
-using DiseñoLoginS8;
+using TPI_ClubDeportivo;
 
-namespace DiseñoLoginS8
+namespace TPI_ClubDeportivo
 {
     internal static class Program
     {

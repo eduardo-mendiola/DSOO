@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TPI_ClubDeportivo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a08f5819eb1eaf84a7937fc18c0e23db3ed66de8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+874c63f08301c08ccf0cde5c9ff8e5bdd887bf10")]
 [assembly: System.Reflection.AssemblyProductAttribute("TPI_ClubDeportivo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TPI_ClubDeportivo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
