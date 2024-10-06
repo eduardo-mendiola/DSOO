@@ -24,7 +24,7 @@ namespace DiseñoLoginS8
 
         public override string? ToString()
         {
-            // return $"Nombre: {nombre}, Apellido: {apellido}, Tipo: {tipo}, Documento: {documento}"; 
+            // return $"Nombre2: {nombre}, Apellido2: {apellido}, Tipo2: {tipo}, Documento2: {documento}"; 
             Type type = this.GetType();
             PropertyInfo[] properties = type.GetProperties();
             string result = "";

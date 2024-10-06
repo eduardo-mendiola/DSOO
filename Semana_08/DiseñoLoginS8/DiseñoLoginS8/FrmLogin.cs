@@ -13,12 +13,52 @@ using DiseñoLogin.Datos;
 
 namespace DiseñoLoginS8
 {
-    public partial class FrmLogin : Form
+    public partial class frmLogin : Form
     {
-        public FrmLogin()
+        public frmLogin()
         {
             InitializeComponent();
         }
+
+        
+
+        private void txtUsuario_Enter(object sender, EventArgs e)
+        {
+            /* este evento se ejecuta cuando llega el foco */
+            if (txtUser.Text == "USUARIO")
+            {
+                txtUser.Text = "";
+            }
+        }
+
+        private void txtUsuario_Leave(object sender, EventArgs e)
+        {
+            /* este evento se ejecuta cuando se va el foco */
+            if (txtUser.Text == "")
+            {
+                txtUser.Text = "USUARIO";
+            }
+        }
+
+        private void txtPass_Enter(object sender, EventArgs e)
+        {
+            if (txtPass.Text == "CONTRASEÑA")
+            {
+                txtPass.Text = "";
+                txtPass.UseSystemPasswordChar = true;
+            }
+        }
+
+        private void txtPass_Leave(object sender, EventArgs e)
+        {
+            if (txtPass.Text == "")
+            {
+                txtPass.Text = "CONTRASEÑA";
+                txtPass.UseSystemPasswordChar = false;
+            }
+        }
+
+
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
@@ -27,8 +67,28 @@ namespace DiseñoLoginS8
             tablaLogin = dato.Log_Usu(txtUser.Text, txtPass.Text);
             if (tablaLogin.Rows.Count > 0)
             {
-                // quiere decir que el resultado tiene 1 fila por lo que el usuario EXISTE
-                MessageBox.Show("Ingreso exitoso");
+                // ____ Quiere decir que el resultado tiene 1 fila por lo que el usuario EXISTE ___
+                // _____ Informamos con un mensaje al usuario _____
+                MessageBox.Show("Ingreso exitoso", "MENSAJES DEL SISTEMA",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
+                /* 
+                ____________________________________________________________________
+                Una vez que tenemos la conexion establecida PASAMOS al formulario 
+                PRINCIPAL.
+                Se debe "Instanciar" un objeto de la clase formulario principal.
+                ____________________________________________________________________ 
+                */
+                frmPrincipal Principal = new frmPrincipal();
+                /* 
+                ____________________________________________________________________
+                La siguiente linea permite tomar el dominio de la primera columna 
+                de la primera fila del resultado de la ejecucion de la query.
+                ____________________________________________________________________ 
+                */
+                Principal.rol = Convert.ToString(tablaLogin.Rows[0][0]);
+                Principal.usuario = Convert.ToString(txtUser.Text);
+                Principal.Show(); // se llama al formulario principal
+                this.Hide(); // se oculta el formulario del login
             }
             else
             {

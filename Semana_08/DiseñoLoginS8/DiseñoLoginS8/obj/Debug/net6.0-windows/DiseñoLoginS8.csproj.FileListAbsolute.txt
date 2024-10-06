@@ -42,3 +42,5 @@ C:\Users\ezequ\source\repos\POO\Semana_08\DiseñoLoginS8\DiseñoLoginS8\obj\Debu
 C:\Users\ezequ\source\repos\POO\Semana_08\DiseñoLoginS8\DiseñoLoginS8\obj\Debug\net6.0-windows\DiseñoLoginS8.pdb
 C:\Users\ezequ\source\repos\POO\Semana_08\DiseñoLoginS8\DiseñoLoginS8\obj\Debug\net6.0-windows\DiseñoLoginS8.genruntimeconfig.cache
 C:\Users\ezequ\source\repos\POO\Semana_08\DiseñoLoginS8\DiseñoLoginS8\obj\Debug\net6.0-windows\ref\DiseñoLoginS8.dll
+C:\Users\ezequ\source\repos\POO\Semana_08\DiseñoLoginS8\DiseñoLoginS8\obj\Debug\net6.0-windows\DiseñoLoginS8.frmInscripcion.resources
+C:\Users\ezequ\source\repos\POO\Semana_08\DiseñoLoginS8\DiseñoLoginS8\obj\Debug\net6.0-windows\DiseñoLoginS8.prueba_borrar.resources
