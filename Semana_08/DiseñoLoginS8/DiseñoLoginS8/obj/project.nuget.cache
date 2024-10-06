@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7Y6snmngT90=",
+  "dgSpecHash": "yay5Njv3y1M=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ezequ\\source\\repos\\POO\\Semana_08\\DiseñoLoginS8\\DiseñoLoginS8\\DiseñoLoginS8.csproj",
+  "projectFilePath": "C:\\Users\\ezequ\\Desktop\\DiseñoLoginS8\\DiseñoLoginS8\\DiseñoLoginS8.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ezequ\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\ezequ\\.nuget\\packages\\google.protobuf\\3.26.1\\google.protobuf.3.26.1.nupkg.sha512",

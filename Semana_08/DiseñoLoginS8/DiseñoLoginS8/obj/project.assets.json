@@ -1557,11 +1557,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ezequ\\source\\repos\\POO\\Semana_08\\DiseñoLoginS8\\DiseñoLoginS8\\DiseñoLoginS8.csproj",
+      "projectUniqueName": "C:\\Users\\ezequ\\Desktop\\DiseñoLoginS8\\DiseñoLoginS8\\DiseñoLoginS8.csproj",
       "projectName": "DiseñoLoginS8",
-      "projectPath": "C:\\Users\\ezequ\\source\\repos\\POO\\Semana_08\\DiseñoLoginS8\\DiseñoLoginS8\\DiseñoLoginS8.csproj",
+      "projectPath": "C:\\Users\\ezequ\\Desktop\\DiseñoLoginS8\\DiseñoLoginS8\\DiseñoLoginS8.csproj",
       "packagesPath": "C:\\Users\\ezequ\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ezequ\\source\\repos\\POO\\Semana_08\\DiseñoLoginS8\\DiseñoLoginS8\\obj\\",
+      "outputPath": "C:\\Users\\ezequ\\Desktop\\DiseñoLoginS8\\DiseñoLoginS8\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

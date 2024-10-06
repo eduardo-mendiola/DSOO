@@ -22,7 +22,7 @@ namespace DiseñoLogin.Datos
         // Constructor de la clase Conexion
         public Conexion()
         {
-            this.baseDatos = "Instituto"; // Nombre2 de la base de datos asignado
+            this.baseDatos = "Instituto"; // Nombre de la base de datos asignado
             // Obtiene las variables de entorno para la configuración de conexión
             this.servidor = Environment.GetEnvironmentVariable("DB_HOST_MYSQL");
             this.puerto = Environment.GetEnvironmentVariable("DB_PORT_MYSQL");
