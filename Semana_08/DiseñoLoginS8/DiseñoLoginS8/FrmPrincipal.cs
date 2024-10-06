@@ -18,23 +18,23 @@ namespace DiseñoLoginS8
         internal String? rol;
         internal String? usuario;
 
+        //private void frmPrincipal_Load(object sender, EventArgs e)
+        //{
+        //    // Verificar si los valores de usuario y rol no son nulos antes de asignarlos al label
+        //    if (!string.IsNullOrEmpty(usuario) && !string.IsNullOrEmpty(rol))
+        //    {
+        //        lblIngreso.Text = $"USUARIO: {usuario} ({rol})";
+        //    }
+        //    else
+        //    {
+        //        lblIngreso.Text = "USUARIO: Información no disponible";
+        //    }
+        //}
+
         private void frmPrincipal_Load(object sender, EventArgs e)
         {
-            // Verificar si los valores de usuario y rol no son nulos antes de asignarlos al label
-            if (!string.IsNullOrEmpty(usuario) && !string.IsNullOrEmpty(rol))
-            {
-                lblIngreso.Text = $"USUARIO: {usuario} ({rol})";
-            }
-            else
-            {
-                lblIngreso.Text = "USUARIO: Información no disponible";
-            }
+            lblIngreso.Text = $"USUARIO: {usuario} ({rol})";
         }
-
-        //private void fmrPrincipal_Load(object sender, EventArgs e)
-        //{
-        //    lblIngreso.Text = "USUARIO: " + usuario + " " + "(" + rol + ")";
-        //}
 
 
         private void btnSalir_Click(object sender, EventArgs e)
@@ -47,13 +47,13 @@ namespace DiseñoLoginS8
             Application.Exit();
         }
 
+        // Abre el formulario de inscripción
         private void btnInscribir_Click(Object sender, EventArgs e)
         {
-            frmPrincipal inscripcion = new frmPrincipal();
+            frmInscripcion inscripcion = new frmInscripcion();
             inscripcion.Show();
             this.Hide();
         }
 
-        
     }
 }
