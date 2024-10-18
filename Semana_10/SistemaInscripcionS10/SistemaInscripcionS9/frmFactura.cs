@@ -58,9 +58,15 @@ namespace SistemaInscripcionS10
              *-----------------------------------------------------*/
 
             MessageBox.Show("Operación exiatosa", "AVISO DEL SISTEMA", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            frmPrincipal principal = new frmPrincipal();
-            principal.Show();
-            this.Close();
+
+           
+
+            // En lugar de crear una nueva instancia de frmPrincipal, mostramos el formulario original (Owner)
+            if (this.Owner != null)
+            {
+                this.Owner.Show();  // Mostramos el formulario original
+            }
+            this.Close();  // Cerramos el formulario actual
         }
 
         /*----------------------------------------------------------

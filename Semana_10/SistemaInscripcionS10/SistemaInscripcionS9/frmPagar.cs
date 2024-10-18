@@ -29,6 +29,7 @@ namespace SistemaInscripcionS10
 
         private void btnComprobante_Click(object sender, EventArgs e)
         {
+            doc.Owner = this.Owner;  // Asigna el Owner del formulario actual
             doc.Show();
             this.Hide();
         }
@@ -38,7 +39,7 @@ namespace SistemaInscripcionS10
             MySqlConnection sqlCon = new MySqlConnection();
             try
             {
-                string query;
+                String query;
                 sqlCon = Conexion.getInstancia().CrearConexion();
 
                 /*
@@ -49,16 +50,17 @@ namespace SistemaInscripcionS10
                 -------------------------------------------------------------------
                  */
 
-                query = ("select idinscri, nombre, concat(nombrep, ' ', apellidop), precio,e.fecha " +
+                query = ("select idinscri, nombre, concat(nombrep, ' ', apellidop), precio, e.fecha " +
                          "from inscripcion i " +
-                         "inner join edicion e on i.idEdicion = e.idEdicion" +
-                         "inner join curso c on c.ncurso = e.ncurso inner " +
-                         "join alumno a on a.legajo = i.legajo" +
+                         "inner join edicion e on i.idEdicion = e.idEdicion " +
+                         "inner join curso c on c.ncurso = e.ncurso " +
+                         "inner join alumno a on a.legajo = i.legajo " +
                          "inner join postulante p on p.NPostu = a.Npostu " +
                          "where idinscri = " + txtNro.Text); // <<<----- Usamos el dato ingresado por el usuario.
 
                 MySqlCommand comando = new MySqlCommand(query, sqlCon);
                 // Usamos la consulta y la conexion. 
+                Console.WriteLine(query); // borrar
 
                 comando.CommandType = CommandType.Text;
                 sqlCon.Open();
@@ -69,11 +71,11 @@ namespace SistemaInscripcionS10
                 {
                     reader.Read(); // En este caso sabemos que si tiene datos es UNA SOLA FILA
 
-                    doc.numero_f = Convert.ToInt32(reader.GetString(0));
+                    doc.numero_f = reader.GetInt32(0);
                     doc.curso_f = reader.GetString(1);
                     doc.alumno_f = reader.GetString(2);
-                    doc.monto_f = (float)Convert.ToDouble(reader.GetString(3));
-                    doc.fecha_f = (DateTime)Convert.ToDateTime(reader.GetString(4));
+                    doc.monto_f = reader.GetFloat(3);
+                    doc.fecha_f = reader.GetDateTime(4);
 
                     if (optEfvo.Checked == true) // Evaluamos que opción es la seleccionada
                     {
@@ -89,6 +91,14 @@ namespace SistemaInscripcionS10
                         doc.forma_f = "Tarjeta";
                     }
                     btnComprobante.Enabled = true;
+
+                    
+                    MessageBox.Show("Pago realizado exitosamente", "AVISO DEL SISTEMA", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                    // Despues borrar, es solo para ver si se estan cargando los valores
+                    System.Diagnostics.Debug.WriteLine(query);
+                    System.Diagnostics.Debug.WriteLine($"{doc.numero_f} | {doc.curso_f} | {doc.alumno_f} | {doc.monto_f} | {doc.fecha_f}");
+
 
                 }
                 else
