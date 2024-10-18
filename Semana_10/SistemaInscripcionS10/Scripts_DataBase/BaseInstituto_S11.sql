@@ -167,7 +167,7 @@ end
 
 
  drop procedure if exists NuevoPos //
- create procedure NuevoPos(in Nom varchar(30),in Ape varchar(40),in Tip varchar(20), in Doc int, out rta int)
+ create procedure NuevoPos(in Nom varchar(30),in Ape varchar(40),in Tip varchar(20), in Doc varchar(20), out rta int)
  begin
      declare filas int default 0;
 	 declare primer int default 0;
@@ -176,7 +176,50 @@ end
      set filas = (select count(*) from postulante);
      if filas = 0 then
 		set filas = 450; /* consideramos a este numero como el primer numero de postulante */
-		set primer = 450;
+		set primer = 1420;
+     else
+     /* -------------------------------------------------------------------------------
+		buscamos el ultimo numero de postulante almacenado para sumarle una unidad y
+		considerarla como PRIMARY KEY de la tabla
+		Lo mismo hacemos para alumno
+   ___________________________________________________________________________ */
+		set filas = (select max(NPostu) + 1 from postulante);
+		set primer =(select max(legajo) + 1 from alumno);
+		
+		/* ---------------------------------------------------------
+			para saber si ya esta almacenado el postulante
+		------------------------------------------------------- */	
+		set existe = (select count(*) from postulante where TdocP = Tip and DocP = Doc);
+     end if;
+	 
+	  if existe = 0 then	 
+		 insert into postulante values(filas,Nom,Ape,Tip,Doc);
+		 
+		 /* --------------  SE LE ASIGNA UN NÚMERO DE ALUMNO ----------------    */
+		 insert into alumno values(primer,filas);
+		 set rta  = primer;
+	  else
+		 set rta = existe;
+      end if;		 
+    
+     end //
+     
+     
+     /* ====================================================================== */
+
+
+
+ drop procedure if exists InsCurso //
+ create procedure InsCurso(in Nom varchar(30),in Ape varchar(40),in Tip varchar(20), in Doc int, out rta int)
+ begin
+     declare filas int default 0;
+	 declare primer int default 0;
+	 declare existe int default 0;
+    
+     set filas = (select count(*) from postulante);
+     if filas = 0 then
+		set filas = 450; /* consideramos a este numero como el primer numero de postulante */
+		set primer = 1420;
      else
      /* -------------------------------------------------------------------------------
 		buscamos el ultimo numero de postulante almacenado para sumarle una unidad y
