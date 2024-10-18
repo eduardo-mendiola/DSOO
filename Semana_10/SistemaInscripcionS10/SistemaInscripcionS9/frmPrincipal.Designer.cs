@@ -91,6 +91,7 @@
             btnPagarCurso.TabIndex = 4;
             btnPagarCurso.Text = "Pagar Curso";
             btnPagarCurso.UseVisualStyleBackColor = false;
+            btnPagarCurso.Click += btnPagarCurso_Click;
             // 
             // btnEmitirCompCurso
             // 

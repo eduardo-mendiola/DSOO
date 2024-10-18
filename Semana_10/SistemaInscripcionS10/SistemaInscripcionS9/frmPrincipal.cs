@@ -59,8 +59,16 @@ namespace SistemaInscripcionS10
         private void btnAsignarCurso_Click(object sender, EventArgs e)
         {
             frmAsignar asignar = new frmAsignar();
-            asignar.Owner = this; 
+            asignar.Owner = this;
             asignar.Show();
+            this.Hide();
+        }
+
+        private void btnPagarCurso_Click(object sender, EventArgs e)
+        {
+            frmPagar pagar = new frmPagar();
+            pagar.Owner = this;
+            pagar.Show();
             this.Hide();
         }
     }

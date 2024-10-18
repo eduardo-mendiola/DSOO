@@ -99,19 +99,19 @@ constraint fk_edicion_curso foreign key (NCurso) references curso(NCurso)
 );
 
 insert into edicion (idEdicion, NCurso, fecha, docente) values
-(845, 4189, '2023-09-04', 2060),
-(null, 4190, '2023-09-04', 2034),
-(null, 4191, '2023-09-06', 2060),
-(null, 3258, '2023-09-04', 2036),
-(null, 3893, '2023-09-11', 2036),
-(null, 3894, '2023-10-09', 2059),
-(null, 2581, '2023-10-09', 2063),
-(null, 2582, '2023-10-16', 2063),
-(null, 3751, '2023-10-09', 2037),
-(null, 3752, '2023-10-09', 2037),
-(null, 3753, '2023-10-09', 2035),
-(null, 3893, '2023-11-06', 2036),
-(null, 2581, '2023-11-06', 2059);
+(845, 4189, '2025-09-04', 2060),
+(null, 4190, '2025-09-04', 2034),
+(null, 4191, '2025-09-06', 2060),
+(null, 3258, '2025-09-04', 2036),
+(null, 3893, '2025-09-11', 2036),
+(null, 3894, '2025-10-09', 2059),
+(null, 2581, '2025-10-09', 2063),
+(null, 2582, '2025-10-16', 2063),
+(null, 3751, '2025-10-09', 2037),
+(null, 3752, '2025-10-09', 2037),
+(null, 3753, '2025-10-09', 2035),
+(null, 3893, '2025-11-06', 2036),
+(null, 2581, '2025-11-06', 2059);
 
 create table lista(
 idLista int,
@@ -175,8 +175,8 @@ end
     
      set filas = (select count(*) from postulante);
      if filas = 0 then
-		set filas = 452; /* consideramos a este numero como el primer numero de postulante */
-		set primer = 1420;
+		set filas = 450; /* consideramos a este numero como el primer numero de postulante */
+		set primer = 450;
      else
      /* -------------------------------------------------------------------------------
 		buscamos el ultimo numero de postulante almacenado para sumarle una unidad y
