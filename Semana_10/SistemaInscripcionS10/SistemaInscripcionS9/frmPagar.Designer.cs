@@ -106,6 +106,7 @@
             // 
             // btnComprobante
             // 
+            btnComprobante.Enabled = false;
             btnComprobante.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
             btnComprobante.Location = new Point(95, 306);
             btnComprobante.Name = "btnComprobante";

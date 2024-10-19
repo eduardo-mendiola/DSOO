@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmFactura));
-            panel1 = new Panel();
+            pnlTitulo = new Panel();
             lblTitulo = new Label();
             btnImprimir = new Button();
             label1 = new Label();
             pictureBox1 = new PictureBox();
-            panel2 = new Panel();
-            panel3 = new Panel();
+            pnlNombreInstitudo = new Panel();
+            pnlDatosInstituto = new Panel();
             label5 = new Label();
             label4 = new Label();
             lblDFecha = new Label();
-            panel4 = new Panel();
+            pnlDatos = new Panel();
             lblValor = new Label();
             label13 = new Label();
             lblPago = new Label();
@@ -49,27 +49,27 @@
             lblCurso = new Label();
             label7 = new Label();
             lblAlumno = new Label();
-            panel1.SuspendLayout();
+            pnlTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            panel2.SuspendLayout();
-            panel3.SuspendLayout();
-            panel4.SuspendLayout();
+            pnlNombreInstitudo.SuspendLayout();
+            pnlDatosInstituto.SuspendLayout();
+            pnlDatos.SuspendLayout();
             SuspendLayout();
             // 
-            // panel1
+            // pnlTitulo
             // 
-            panel1.BackColor = Color.Beige;
-            panel1.Controls.Add(lblTitulo);
-            panel1.Location = new Point(12, 19);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(776, 78);
-            panel1.TabIndex = 0;
+            pnlTitulo.BackColor = Color.Beige;
+            pnlTitulo.Controls.Add(lblTitulo);
+            pnlTitulo.Location = new Point(12, 19);
+            pnlTitulo.Name = "pnlTitulo";
+            pnlTitulo.Size = new Size(776, 78);
+            pnlTitulo.TabIndex = 0;
             // 
             // lblTitulo
             // 
             lblTitulo.AutoSize = true;
             lblTitulo.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
-            lblTitulo.Location = new Point(264, 17);
+            lblTitulo.Location = new Point(234, 17);
             lblTitulo.Name = "lblTitulo";
             lblTitulo.Size = new Size(343, 37);
             lblTitulo.TabIndex = 3;
@@ -104,26 +104,26 @@
             pictureBox1.TabIndex = 3;
             pictureBox1.TabStop = false;
             // 
-            // panel2
+            // pnlNombreInstitudo
             // 
-            panel2.BackColor = Color.OldLace;
-            panel2.Controls.Add(label1);
-            panel2.Controls.Add(pictureBox1);
-            panel2.Location = new Point(12, 113);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(384, 112);
-            panel2.TabIndex = 1;
+            pnlNombreInstitudo.BackColor = Color.OldLace;
+            pnlNombreInstitudo.Controls.Add(label1);
+            pnlNombreInstitudo.Controls.Add(pictureBox1);
+            pnlNombreInstitudo.Location = new Point(12, 113);
+            pnlNombreInstitudo.Name = "pnlNombreInstitudo";
+            pnlNombreInstitudo.Size = new Size(384, 112);
+            pnlNombreInstitudo.TabIndex = 1;
             // 
-            // panel3
+            // pnlDatosInstituto
             // 
-            panel3.BackColor = Color.OldLace;
-            panel3.Controls.Add(label5);
-            panel3.Controls.Add(label4);
-            panel3.Controls.Add(lblDFecha);
-            panel3.Location = new Point(404, 113);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(384, 112);
-            panel3.TabIndex = 2;
+            pnlDatosInstituto.BackColor = Color.OldLace;
+            pnlDatosInstituto.Controls.Add(label5);
+            pnlDatosInstituto.Controls.Add(label4);
+            pnlDatosInstituto.Controls.Add(lblDFecha);
+            pnlDatosInstituto.Location = new Point(404, 113);
+            pnlDatosInstituto.Name = "pnlDatosInstituto";
+            pnlDatosInstituto.Size = new Size(384, 112);
+            pnlDatosInstituto.TabIndex = 2;
             // 
             // label5
             // 
@@ -155,22 +155,22 @@
             lblDFecha.TabIndex = 4;
             lblDFecha.Text = "00/00/0000";
             // 
-            // panel4
+            // pnlDatos
             // 
-            panel4.BackColor = Color.Beige;
-            panel4.Controls.Add(lblValor);
-            panel4.Controls.Add(label13);
-            panel4.Controls.Add(lblPago);
-            panel4.Controls.Add(label11);
-            panel4.Controls.Add(lblDia);
-            panel4.Controls.Add(label9);
-            panel4.Controls.Add(lblCurso);
-            panel4.Controls.Add(label7);
-            panel4.Controls.Add(lblAlumno);
-            panel4.Location = new Point(12, 242);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(776, 267);
-            panel4.TabIndex = 1;
+            pnlDatos.BackColor = Color.Beige;
+            pnlDatos.Controls.Add(lblValor);
+            pnlDatos.Controls.Add(label13);
+            pnlDatos.Controls.Add(lblPago);
+            pnlDatos.Controls.Add(label11);
+            pnlDatos.Controls.Add(lblDia);
+            pnlDatos.Controls.Add(label9);
+            pnlDatos.Controls.Add(lblCurso);
+            pnlDatos.Controls.Add(label7);
+            pnlDatos.Controls.Add(lblAlumno);
+            pnlDatos.Location = new Point(12, 242);
+            pnlDatos.Name = "pnlDatos";
+            pnlDatos.Size = new Size(776, 267);
+            pnlDatos.TabIndex = 1;
             // 
             // lblValor
             // 
@@ -267,35 +267,35 @@
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 595);
-            Controls.Add(panel4);
-            Controls.Add(panel3);
-            Controls.Add(panel2);
+            Controls.Add(pnlDatos);
+            Controls.Add(pnlDatosInstituto);
+            Controls.Add(pnlNombreInstitudo);
             Controls.Add(btnImprimir);
-            Controls.Add(panel1);
+            Controls.Add(pnlTitulo);
             Name = "frmFactura";
             Text = "frmFactura";
             Load += frmFactura_Load;
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
+            pnlTitulo.ResumeLayout(false);
+            pnlTitulo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            panel2.ResumeLayout(false);
-            panel2.PerformLayout();
-            panel3.ResumeLayout(false);
-            panel3.PerformLayout();
-            panel4.ResumeLayout(false);
-            panel4.PerformLayout();
+            pnlNombreInstitudo.ResumeLayout(false);
+            pnlNombreInstitudo.PerformLayout();
+            pnlDatosInstituto.ResumeLayout(false);
+            pnlDatosInstituto.PerformLayout();
+            pnlDatos.ResumeLayout(false);
+            pnlDatos.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private Panel panel1;
+        private Panel pnlTitulo;
         private Button btnImprimir;
         private Label label1;
         private PictureBox pictureBox1;
-        private Panel panel2;
-        private Panel panel3;
-        private Panel panel4;
+        private Panel pnlNombreInstitudo;
+        private Panel pnlDatosInstituto;
+        private Panel pnlDatos;
         private Label lblTitulo;
         private Label label5;
         private Label label4;
