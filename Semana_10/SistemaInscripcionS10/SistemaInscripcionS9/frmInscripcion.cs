@@ -10,6 +10,11 @@ namespace SistemaInscripcionS10
             InitializeComponent();
         }
 
+        private void frmInscripcion_Load(object sender, EventArgs e)
+        {
+            cboTipo.SelectedIndex = 0; // Para que al iniciar el form de registro muestre DNI en el tipo por defecto.
+        }
+
         private void btnVolver_Click(object sender, EventArgs e)
         {
             this.Owner.Show();  // Mostrá el formulario principal (dueño)
@@ -58,15 +63,15 @@ namespace SistemaInscripcionS10
          * Limpiamos los objetos para un nuevo ingreso
          * =============================================
          */
-            private void btnLimpiar_Click(object sender, EventArgs e)
-            {
-                txtNombre.Text = "";
-                txtApellido.Text = "";
-                txtDocumento.Text = "";
-                cboTipo.Text = "";
-                txtNombre.Focus();
-            }
-
-
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            txtNombre.Text = "";
+            txtApellido.Text = "";
+            txtDocumento.Text = "";
+            cboTipo.Text = "";
+            txtNombre.Focus();
         }
+
+      
     }
+}

@@ -18,6 +18,12 @@ select * from postulante;
 select * from alumno;
 select * from inscripcion;
 
+-- Primero define la variable de salida rta
+SET @rta = 0;
+
+-- Llama al procedimiento con valores de ejemplo
+CALL InsCurso(1420, 846, @rta);
+
 select idinscri, nombre, concat(nombrep, ' ', apellidop), precio,e.fecha 
 from inscripcion i 
 inner join edicion e on i.idEdicion = e.idEdicion
@@ -29,3 +35,5 @@ where idinscri = 1;
 DELETE FROM inscripcion WHERE idInscri = 1;
 
 insert into inscripcion(idInscri, Legajo, idEdicion, fecha, pagado) values (1,1420,846,"2024-10-18", true); 
+
+

@@ -81,7 +81,7 @@
             txtNombre.Location = new Point(555, 120);
             txtNombre.Name = "txtNombre";
             txtNombre.Size = new Size(354, 36);
-            txtNombre.TabIndex = 3;
+            txtNombre.TabIndex = 0;
             // 
             // txtApellido
             // 
@@ -89,7 +89,7 @@
             txtApellido.Location = new Point(555, 205);
             txtApellido.Name = "txtApellido";
             txtApellido.Size = new Size(354, 36);
-            txtApellido.TabIndex = 4;
+            txtApellido.TabIndex = 1;
             // 
             // txtDocumento
             // 
@@ -97,7 +97,7 @@
             txtDocumento.Location = new Point(770, 294);
             txtDocumento.Name = "txtDocumento";
             txtDocumento.Size = new Size(220, 33);
-            txtDocumento.TabIndex = 5;
+            txtDocumento.TabIndex = 3;
             // 
             // btnIngresar
             // 
@@ -106,7 +106,7 @@
             btnIngresar.Location = new Point(391, 367);
             btnIngresar.Name = "btnIngresar";
             btnIngresar.Size = new Size(170, 52);
-            btnIngresar.TabIndex = 6;
+            btnIngresar.TabIndex = 4;
             btnIngresar.Text = "INGRESAR";
             btnIngresar.UseVisualStyleBackColor = false;
             btnIngresar.Click += btnIngresar_Click;
@@ -118,7 +118,7 @@
             btnLimpiar.Location = new Point(617, 367);
             btnLimpiar.Name = "btnLimpiar";
             btnLimpiar.Size = new Size(170, 52);
-            btnLimpiar.TabIndex = 7;
+            btnLimpiar.TabIndex = 5;
             btnLimpiar.Text = "LIMPIAR";
             btnLimpiar.UseVisualStyleBackColor = false;
             btnLimpiar.Click += btnLimpiar_Click;
@@ -141,7 +141,7 @@
             cboTipo.Location = new Point(462, 292);
             cboTipo.Name = "cboTipo";
             cboTipo.Size = new Size(150, 34);
-            cboTipo.TabIndex = 9;
+            cboTipo.TabIndex = 2;
             // 
             // pictureBox1
             // 
@@ -171,7 +171,7 @@
             btnVolver.Location = new Point(835, 367);
             btnVolver.Name = "btnVolver";
             btnVolver.Size = new Size(170, 52);
-            btnVolver.TabIndex = 12;
+            btnVolver.TabIndex = 6;
             btnVolver.Text = "VOLVER";
             btnVolver.UseVisualStyleBackColor = false;
             btnVolver.Click += btnVolver_Click;
@@ -198,6 +198,7 @@
             Name = "frmInscripcion";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "INSCRIPCIÓN DE POSTULANTE";
+            Load += frmInscripcion_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

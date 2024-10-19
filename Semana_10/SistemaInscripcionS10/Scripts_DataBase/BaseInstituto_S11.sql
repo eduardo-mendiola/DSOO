@@ -208,42 +208,41 @@ end
      /* ====================================================================== */
 
 
-
+delimiter //
  drop procedure if exists InsCurso //
- create procedure InsCurso(in Nom varchar(30),in Ape varchar(40),in Tip varchar(20), in Doc int, out rta int)
+
+ create procedure InsCurso(in numLeg int, in idEdi int, out rta int)
  begin
      declare filas int default 0;
 	 declare primer int default 0;
 	 declare existe int default 0;
-    
-     set filas = (select count(*) from postulante);
+     DECLARE fecha_actual DATE;
+     DECLARE Pago boolean default false;
+     
+	 SET fecha_actual = CURDATE();  -- Asigna la fecha actual (solo la fecha, sin la hora)
+     SET rta = 0;  -- Asignar un valor predeterminado a 'rta'
+
+     set filas = (select count(*) from inscripcion);
      if filas = 0 then
-		set filas = 450; /* consideramos a este numero como el primer numero de postulante */
-		set primer = 1420;
+		set filas = 200; /* consideramos a este numero como el primer numero de postulante */
      else
      /* -------------------------------------------------------------------------------
-		buscamos el ultimo numero de postulante almacenado para sumarle una unidad y
+		buscamos el ultimo numero de inscripción almacenado para sumarle una unidad y
 		considerarla como PRIMARY KEY de la tabla
 		Lo mismo hacemos para alumno
    ___________________________________________________________________________ */
-		set filas = (select max(NPostu) + 1 from postulante);
-		set primer =(select max(legajo) + 1 from alumno);
-		
+		set filas = (select max(idInscri) + 1 from inscripcion);
+
 		/* ---------------------------------------------------------
 			para saber si ya esta almacenado el postulante
 		------------------------------------------------------- */	
-		set existe = (select count(*) from postulante where TdocP = Tip and DocP = Doc);
+		set existe = (select count(*) from inscripcion where Legajo = numLeg and idEdicion = idEdi);
      end if;
 	 
 	  if existe = 0 then	 
-		 insert into postulante values(filas,Nom,Ape,Tip,Doc);
-		 
-		 /* --------------  SE LE ASIGNA UN NÚMERO DE ALUMNO ----------------    */
-		 insert into alumno values(primer,filas);
-		 set rta  = primer;
+		 insert into inscripcion values(filas,numLeg,idEdi,fecha_actual,Pago);
 	  else
 		 set rta = existe;
       end if;		 
-    
      end //
 Delimiter ;
