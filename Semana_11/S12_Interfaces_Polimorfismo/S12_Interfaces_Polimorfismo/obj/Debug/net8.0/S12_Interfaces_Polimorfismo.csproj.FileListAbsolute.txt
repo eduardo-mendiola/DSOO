@@ -1,0 +1,15 @@
+C:\Users\ezequ\source\repos\POO\Semana_11\S12_Interfaces_Polimorfismo\S12_Interfaces_Polimorfismo\bin\Debug\net8.0\S12_Interfaces_Polimorfismo.exe
+C:\Users\ezequ\source\repos\POO\Semana_11\S12_Interfaces_Polimorfismo\S12_Interfaces_Polimorfismo\bin\Debug\net8.0\S12_Interfaces_Polimorfismo.deps.json
+C:\Users\ezequ\source\repos\POO\Semana_11\S12_Interfaces_Polimorfismo\S12_Interfaces_Polimorfismo\bin\Debug\net8.0\S12_Interfaces_Polimorfismo.runtimeconfig.json
+C:\Users\ezequ\source\repos\POO\Semana_11\S12_Interfaces_Polimorfismo\S12_Interfaces_Polimorfismo\bin\Debug\net8.0\S12_Interfaces_Polimorfismo.dll
+C:\Users\ezequ\source\repos\POO\Semana_11\S12_Interfaces_Polimorfismo\S12_Interfaces_Polimorfismo\bin\Debug\net8.0\S12_Interfaces_Polimorfismo.pdb
+C:\Users\ezequ\source\repos\POO\Semana_11\S12_Interfaces_Polimorfismo\S12_Interfaces_Polimorfismo\obj\Debug\net8.0\S12_Interfaces_Polimorfismo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ezequ\source\repos\POO\Semana_11\S12_Interfaces_Polimorfismo\S12_Interfaces_Polimorfismo\obj\Debug\net8.0\S12_Interfaces_Polimorfismo.AssemblyInfoInputs.cache
+C:\Users\ezequ\source\repos\POO\Semana_11\S12_Interfaces_Polimorfismo\S12_Interfaces_Polimorfismo\obj\Debug\net8.0\S12_Interfaces_Polimorfismo.AssemblyInfo.cs
+C:\Users\ezequ\source\repos\POO\Semana_11\S12_Interfaces_Polimorfismo\S12_Interfaces_Polimorfismo\obj\Debug\net8.0\S12_Interfaces_Polimorfismo.csproj.CoreCompileInputs.cache
+C:\Users\ezequ\source\repos\POO\Semana_11\S12_Interfaces_Polimorfismo\S12_Interfaces_Polimorfismo\obj\Debug\net8.0\S12_Interfaces_Polimorfismo.sourcelink.json
+C:\Users\ezequ\source\repos\POO\Semana_11\S12_Interfaces_Polimorfismo\S12_Interfaces_Polimorfismo\obj\Debug\net8.0\S12_Interfaces_Polimorfismo.dll
+C:\Users\ezequ\source\repos\POO\Semana_11\S12_Interfaces_Polimorfismo\S12_Interfaces_Polimorfismo\obj\Debug\net8.0\refint\S12_Interfaces_Polimorfismo.dll
+C:\Users\ezequ\source\repos\POO\Semana_11\S12_Interfaces_Polimorfismo\S12_Interfaces_Polimorfismo\obj\Debug\net8.0\S12_Interfaces_Polimorfismo.pdb
+C:\Users\ezequ\source\repos\POO\Semana_11\S12_Interfaces_Polimorfismo\S12_Interfaces_Polimorfismo\obj\Debug\net8.0\S12_Interfaces_Polimorfismo.genruntimeconfig.cache
+C:\Users\ezequ\source\repos\POO\Semana_11\S12_Interfaces_Polimorfismo\S12_Interfaces_Polimorfismo\obj\Debug\net8.0\ref\S12_Interfaces_Polimorfismo.dll
