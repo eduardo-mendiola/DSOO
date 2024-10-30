@@ -1,0 +1,15 @@
+C:\Users\ezequ\source\repos\POO\Semana_12\CalculadoraGeometria\CalculadoraGeometria\bin\Debug\net8.0\CalculadoraGeometria.exe
+C:\Users\ezequ\source\repos\POO\Semana_12\CalculadoraGeometria\CalculadoraGeometria\bin\Debug\net8.0\CalculadoraGeometria.deps.json
+C:\Users\ezequ\source\repos\POO\Semana_12\CalculadoraGeometria\CalculadoraGeometria\bin\Debug\net8.0\CalculadoraGeometria.runtimeconfig.json
+C:\Users\ezequ\source\repos\POO\Semana_12\CalculadoraGeometria\CalculadoraGeometria\bin\Debug\net8.0\CalculadoraGeometria.dll
+C:\Users\ezequ\source\repos\POO\Semana_12\CalculadoraGeometria\CalculadoraGeometria\bin\Debug\net8.0\CalculadoraGeometria.pdb
+C:\Users\ezequ\source\repos\POO\Semana_12\CalculadoraGeometria\CalculadoraGeometria\obj\Debug\net8.0\CalculadoraGeometria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ezequ\source\repos\POO\Semana_12\CalculadoraGeometria\CalculadoraGeometria\obj\Debug\net8.0\CalculadoraGeometria.AssemblyInfoInputs.cache
+C:\Users\ezequ\source\repos\POO\Semana_12\CalculadoraGeometria\CalculadoraGeometria\obj\Debug\net8.0\CalculadoraGeometria.AssemblyInfo.cs
+C:\Users\ezequ\source\repos\POO\Semana_12\CalculadoraGeometria\CalculadoraGeometria\obj\Debug\net8.0\CalculadoraGeometria.csproj.CoreCompileInputs.cache
+C:\Users\ezequ\source\repos\POO\Semana_12\CalculadoraGeometria\CalculadoraGeometria\obj\Debug\net8.0\CalculadoraGeometria.sourcelink.json
+C:\Users\ezequ\source\repos\POO\Semana_12\CalculadoraGeometria\CalculadoraGeometria\obj\Debug\net8.0\CalculadoraGeometria.dll
+C:\Users\ezequ\source\repos\POO\Semana_12\CalculadoraGeometria\CalculadoraGeometria\obj\Debug\net8.0\refint\CalculadoraGeometria.dll
+C:\Users\ezequ\source\repos\POO\Semana_12\CalculadoraGeometria\CalculadoraGeometria\obj\Debug\net8.0\CalculadoraGeometria.pdb
+C:\Users\ezequ\source\repos\POO\Semana_12\CalculadoraGeometria\CalculadoraGeometria\obj\Debug\net8.0\CalculadoraGeometria.genruntimeconfig.cache
+C:\Users\ezequ\source\repos\POO\Semana_12\CalculadoraGeometria\CalculadoraGeometria\obj\Debug\net8.0\ref\CalculadoraGeometria.dll
